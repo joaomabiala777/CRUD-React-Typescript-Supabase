@@ -104,7 +104,7 @@ export default function App() {
               <tr key={p.id} className="border-b hover:bg-gray-50">
                 <td className="p-2">{p.nome}</td>
                 <td className="p-2">{p.quantidade}</td>
-                <td className="p-2">{p.preco}kz</td>
+                <td className="p-2">{p.preco} kz</td>
                 <td className="p-2 space-x-2">
                   <button
                     onClick={() => openModal(p)}
